@@ -25,7 +25,7 @@ This library presents solutions in the fields of prototyping and computer vision
 
 TECHNICAL INFORMATION
 
-The ArconaBasic is a statically–linked C++ library that is intended to use in Microsoft Visual C++ (c) environment of version 2013 or higher. The library is assembled with all necessary dependencies, so no extra procedures are needed to begin use it. The current version works on 64x platforms only. The hardware system requirements depend on the dimension and complexity of a specified input data, but for a majority of cases a platform with Intel I5 and 4 GB of memory is sufficient.    
+The Arcona Core is a statically–linked C++ library that is intended to use in Microsoft Visual C++ (c) environment of version 2013 or higher. The library is assembled with all necessary dependencies, so no extra procedures are needed to begin use it. The current version works on 64x platforms only. The hardware system requirements depend on the dimension and complexity of a specified input data, but for a majority of cases a platform with Intel I5 and 4 GB of memory is sufficient.    
 
 All hi-level operational functions of the library return 0 if the processing has been done without critical errors and a non-zero (currently 1) otherwise. They don’t throw exceptions to the external code.   
 
