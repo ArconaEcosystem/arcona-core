@@ -52,6 +52,7 @@ The function make_repair_mesh produces a triangle mesh model from a specified in
 •	out_mesh  is the resulting data container; in the case of success it always contains a triangle mesh with the defined normals at its points; it should not be allocated before, its allocation is made inside the function.
 This function supports the progress indication. Because exact prediction of the required amount of work can’t be made with a reasonable cost, during the repairing the progress index can roll-back to a previous position several times.
 The function make_repair_stl is a variant of the previous method that repairs stl mesh files.
+
 <img src="https://user-images.githubusercontent.com/4168419/42273132-fb25fcf6-7f90-11e8-83b5-a1084f387e18.jpg" align="centr" width="200">
 
 Figure F5.2.1
